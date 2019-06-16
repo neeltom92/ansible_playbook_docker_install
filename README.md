@@ -4,7 +4,7 @@ Ansible playbook for installing docker on Ubuntu18
 
 Usage :
 
-In the "hosts" inventory file give the list of VM's where u want to install docker
+In the "hosts" inventory file give the list of VM's where u want to install docker,then
 run the below command to install docker:
 --
  ansible-playbook  docker-playbook.yml -i hosts
